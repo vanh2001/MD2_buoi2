@@ -14,7 +14,9 @@ public class Main {
         interestRate = sc.nextDouble();
 
         double totalInterest = 0;
-        totalInterest += money * (interestRate/100)/12 * month;
+        for (int i = 0; i < month; i++) {
+            totalInterest += money * (interestRate/100)/12 * month;
+        }
         System.out.printf("Total of interest: %f", totalInterest);
     }
 }
