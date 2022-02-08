@@ -40,8 +40,8 @@ public class Main {
                     break;
                 case 0:
                     //Thoát khỏi chương trình
+                    System.out.println("Exit Program!");
                     System.exit(0);
-                    System.out.println("Exit ");
                 default:
                     System.out.println("No choice!");
             }
